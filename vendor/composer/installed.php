@@ -5,7 +5,7 @@
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'b3daad9b9296d2144b2155e9531a2cba8d3dd943',
+        'reference' => '19fa5757991c5a9076acc386b15695a692dd46db',
         'name' => 'karlova/mailerpackage',
         'dev' => true,
     ),
@@ -70,7 +70,16 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'b3daad9b9296d2144b2155e9531a2cba8d3dd943',
+            'reference' => '19fa5757991c5a9076acc386b15695a692dd46db',
+            'dev_requirement' => false,
+        ),
+        'monolog/monolog' => array(
+            'pretty_version' => '2.3.2',
+            'version' => '2.3.2.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../monolog/monolog',
+            'aliases' => array(),
+            'reference' => '71312564759a7db5b789296369c1a264efc43aad',
             'dev_requirement' => false,
         ),
         'php-cs-fixer/diff' => array(
@@ -128,6 +137,7 @@
             'dev_requirement' => false,
             'provided' => array(
                 0 => '1.0|2.0',
+                1 => '1.0.0',
             ),
         ),
         'squizlabs/php_codesniffer' => array(
