@@ -6,9 +6,6 @@
 </head>
 <body>
 <div>
-    <?php
-    echo $title;
-    ?>
     <h1>wardrobe.com</h1>
 
     <h3>Woo hoo! Your order is on its way. Your order details can be found below.

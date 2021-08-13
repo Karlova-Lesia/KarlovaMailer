@@ -6,9 +6,6 @@
 </head>
 <body>
 <div>
-    <?php
-    echo $title;
-    ?>
     <h1>Hello</h1>
 
     <h3>You registered an account on wardrobe.com,
