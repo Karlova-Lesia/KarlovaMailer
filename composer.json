@@ -1,5 +1,5 @@
 {
-    "name": "mailer/package",
+    "name": "karlova/mailerpackage",
     "type": "library",
     "autoload": {
         "psr-4": {
