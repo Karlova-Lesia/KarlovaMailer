@@ -3,7 +3,8 @@
     "type": "library",
     "autoload": {
         "psr-4": {
-            "Mailer\\": "mailer/"
+            "Mailer\\": "mailer/",
+            "Config\\": "config/"
         }
     },
     "authors": [
