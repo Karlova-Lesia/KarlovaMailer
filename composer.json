@@ -1,6 +1,7 @@
 {
     "name": "karlova/mailerpackage",
     "type": "library",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Mailer\\": "mailer/",

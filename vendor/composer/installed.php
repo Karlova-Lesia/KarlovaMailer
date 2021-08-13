@@ -1,11 +1,11 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => 'dev-develop',
-        'version' => 'dev-develop',
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '0b04b9ad3612d1ad2ce8d11e85e72610f243c2ab',
+        'reference' => 'b3daad9b9296d2144b2155e9531a2cba8d3dd943',
         'name' => 'karlova/mailerpackage',
         'dev' => true,
     ),
@@ -65,12 +65,12 @@
             'dev_requirement' => false,
         ),
         'karlova/mailerpackage' => array(
-            'pretty_version' => 'dev-develop',
-            'version' => 'dev-develop',
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '0b04b9ad3612d1ad2ce8d11e85e72610f243c2ab',
+            'reference' => 'b3daad9b9296d2144b2155e9531a2cba8d3dd943',
             'dev_requirement' => false,
         ),
         'php-cs-fixer/diff' => array(
