@@ -1,0 +1,21 @@
+{
+    "name": "mailer/package",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Mailer\\": "mailer/",
+            "Config\\": "config/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Karlova Lesia",
+            "email": "karlovalesa06@gmail.com"
+        }
+    ],
+    "require": {
+        "swiftmailer/swiftmailer": "^6.0",
+        "squizlabs/php_codesniffer": "^3.6",
+        "friendsofphp/php-cs-fixer": "^3.0"
+    }
+}
