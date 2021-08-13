@@ -2,11 +2,13 @@
 
 namespace Mailer\Transport;
 
+use Config\Config;
+
 class Message
 {
     public static function send(string $subject, string $templateName, array $vars, string $to): void
     {
-        $config = (new Message())->getConfig();
+        $config = Config::getConfig();
         $transport = new $config['defaultTransportType']();
         $mailer = new MailTransport($transport);
         $message = new \Swift_Message();
@@ -14,22 +16,18 @@ class Message
         $message->setSubject($subject);
         $message->setBody((new Message())->template($templateName, $vars), 'text/html');
         $message->setTo($to);
-        $message->setFrom((new Message())->getConfig()['services']['gmail']['username']);
+        $message->setFrom($config['services']['gmail']['username']);
 
         $mailer->getMailer()->send($message);
     }
 
-    private function template($templateName, $vars): bool
+    private function template($templateName, $vars): string
     {
         ob_start();
         extract($vars);
-        include $this->getConfig()['templates']['path'] . "$templateName.php";
+
+        include Config::getConfig()['templates']['path']."{$templateName}.php";
 
         return ob_get_clean();
-    }
-
-    public function getConfig(): array
-    {
-        return require '../config/config.php';
     }
 }
