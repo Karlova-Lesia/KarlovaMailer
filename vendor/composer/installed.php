@@ -5,8 +5,8 @@
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'f71a68a1d1bc54019f725377d9824d506de7ad0a',
-        'name' => 'mailer/package',
+        'reference' => '0b04b9ad3612d1ad2ce8d11e85e72610f243c2ab',
+        'name' => 'karlova/mailerpackage',
         'dev' => true,
     ),
     'versions' => array(
@@ -64,13 +64,13 @@
             'reference' => '990b979379502feb7f393d6c9aa36cc9b9765f24',
             'dev_requirement' => false,
         ),
-        'mailer/package' => array(
+        'karlova/mailerpackage' => array(
             'pretty_version' => 'dev-develop',
             'version' => 'dev-develop',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'f71a68a1d1bc54019f725377d9824d506de7ad0a',
+            'reference' => '0b04b9ad3612d1ad2ce8d11e85e72610f243c2ab',
             'dev_requirement' => false,
         ),
         'php-cs-fixer/diff' => array(
