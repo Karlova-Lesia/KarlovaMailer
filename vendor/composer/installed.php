@@ -5,7 +5,7 @@
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'c1a6870b1b862ca0cc1df3b0fc44b3d68ac9d818',
+        'reference' => 'f71a68a1d1bc54019f725377d9824d506de7ad0a',
         'name' => 'mailer/package',
         'dev' => true,
     ),
@@ -70,7 +70,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'c1a6870b1b862ca0cc1df3b0fc44b3d68ac9d818',
+            'reference' => 'f71a68a1d1bc54019f725377d9824d506de7ad0a',
             'dev_requirement' => false,
         ),
         'php-cs-fixer/diff' => array(

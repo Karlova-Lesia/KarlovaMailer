@@ -67,6 +67,7 @@ class ComposerStaticInitfa92ad1ed8951f6bf6693f0d69331342
         ),
         'C' => 
         array (
+            'Config\\' => 7,
             'Composer\\XdebugHandler\\' => 23,
             'Composer\\Semver\\' => 16,
         ),
@@ -184,6 +185,10 @@ class ComposerStaticInitfa92ad1ed8951f6bf6693f0d69331342
         'Doctrine\\Common\\Annotations\\' => 
         array (
             0 => __DIR__ . '/..' . '/doctrine/annotations/lib/Doctrine/Common/Annotations',
+        ),
+        'Config\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/config',
         ),
         'Composer\\XdebugHandler\\' => 
         array (
