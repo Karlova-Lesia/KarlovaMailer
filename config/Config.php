@@ -20,6 +20,9 @@ class Config implements ConfigInterface
                     'password' => 'September061998',
                 ],
             ],
+            'logs' => [
+                'path' => '../logs/dev.log',
+            ],
         ];
     }
 }
